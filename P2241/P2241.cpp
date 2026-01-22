@@ -21,7 +21,7 @@ void swap(int *pa, int *pb)
 }
 long long cal_every(int length, int wide)
 {
-    int count=0;
+    long long count=0;
     for(int i=1;i<=length;i++)
     {
         for(int j=1;j<=wide;j++)
