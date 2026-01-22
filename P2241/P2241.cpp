@@ -6,7 +6,7 @@ int the_smaller_of(int a, int b)
 }
 long long cal_square(int length, int wide)
 {
-    int count = 0;
+    long long count = 0;
     for (int i = 1; i <= the_smaller_of(length, wide); i++)
     {
         count += (length - i + 1) * (wide - i + 1);
